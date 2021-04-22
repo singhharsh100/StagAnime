@@ -1,0 +1,83 @@
+#myVideo {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content2 {
+  position: absolute;
+  margin-top: 50vh;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.videos {
+  position: absolute;
+  top: 32vh;
+  margin-left: 5%;
+  height: 10%
+  width: 10%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.myBtn {
+  border: 3px solid #fff;
+  background: none;
+   padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5{
+  color: #B14AD5;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover{
+  color: #57B958;
+}
+.contact {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+#myimage {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+.wrapper ul{
+  list-style: none;
+}
+.wrapper ul li{
+  background: #262626;
+  width: 170px;
+  border: 1px solid #fff;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  font-family: big john;
+}
+.wrapper ul li:hover{
+  background: crimson;
+}
+.wrapper ul ul{
+  display: none;
+}

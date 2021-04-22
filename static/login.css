@@ -1,0 +1,57 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content2 {
+  border: 2px solid #fff;
+  position: absolute;
+  top: 50vh;
+  margin-left: 25%;
+  background: rgba(0, 0, 0, 0.5);
+  width: 15%;
+  padding: 80px;
+}
+.myBtn {
+  border: 3px solid #fff;
+  background: none;
+   padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5{
+  color: #B14AD5;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover{
+  color: #57B958
+  background: #fff;
+}
+.form_input input{
+  width: 100%;
+  margin-bottom: 20px;
+} 
+.form_input input[type=email],
+.form_input input[type=password]
+{
+  border:none;
+  border-bottom: 1px solid #4caf50;
+  background: transparent;
+  outline: none;
+  height: 35px;
+  color: white;
+  font-size: 15px;
+}
